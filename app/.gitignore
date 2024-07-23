@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# IntelliJ
+out/
+
+# Files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+build/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# MacOS
+.DS_Store
+
+# Keystore files
+*.jks
+
+# API keys
+apikeys.properties
