@@ -21,6 +21,9 @@ bin/
 gen/
 build/
 
+# Firebase configuration file
+app/google-services.json
+
 # Eclipse project files
 .classpath
 .project
