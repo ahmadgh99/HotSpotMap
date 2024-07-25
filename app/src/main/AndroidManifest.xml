@@ -14,7 +14,7 @@
         android:theme="@style/Theme.HotspotMap"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".MainMap"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.HotspotMap.NoActionBar">
