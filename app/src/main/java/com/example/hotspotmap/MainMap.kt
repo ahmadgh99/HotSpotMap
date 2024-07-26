@@ -25,6 +25,7 @@ import android.widget.Toast
 class MainMap : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
+    private lateinit var ProfileButton:ImageView
     private val LOCATION_PERMISSION_REQUEST_CODE = 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,6 +41,12 @@ class MainMap : AppCompatActivity(), OnMapReadyCallback {
         val addLocationButton = findViewById<ImageView>(R.id.add_location_button)
         addLocationButton.setOnClickListener {
             val intent = Intent(this, ReportActivity::class.java)
+            startActivity(intent)
+        }
+
+        ProfileButton = findViewById(R.id.profile_icon)
+        ProfileButton.setOnClickListener {
+            val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
         }
     }

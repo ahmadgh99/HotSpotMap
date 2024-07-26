@@ -3,6 +3,7 @@ package com.example.hotspotmap
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
 class ProfileActivity : AppCompatActivity() {
@@ -17,5 +18,11 @@ class ProfileActivity : AppCompatActivity() {
             startActivity(intent)
             finish() // Optionally finish this activity if you don't want to return to it
         }
+
+        val backBtn = findViewById<ImageView>(R.id.image_12)
+        backBtn.setOnClickListener {
+            finish()
+        }
+
     }
 }
