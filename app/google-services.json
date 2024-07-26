@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "478282707163",
+    "project_id": "hotspot-map-7dcce",
+    "storage_bucket": "hotspot-map-7dcce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478282707163:android:b41323893da79a18799cfe",
+        "android_client_info": {
+          "package_name": "com.example.hotspotmap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz6-QqYT1hCFzmGZUjavnTXXzIge840kY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
